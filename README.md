@@ -5,9 +5,9 @@ In Reverse Polish Notation (e.g. postfix notation), an operator follows all of i
 ## Infix notation to postfix notation:
 
 ```
-1 + 3     == (1 3 +)
+1 + 3         == (1 3 +)
 
-1 + 3 * 2 == ((1 3 +) 2 *)
+1 + 3 * 2     == ((1 3 +) 2 *)
 
 5 * 1 + 3 * 2 == (5 ((1 3 +) 2 *) *)
 ```
